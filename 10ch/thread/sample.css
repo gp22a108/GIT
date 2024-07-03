@@ -1,0 +1,20 @@
+body{
+    background-color: deepskyblue;
+   } 
+.red-text {
+    color: red;
+    }
+.textbox{
+    width: 400px;
+    height: 200px;
+
+}
+.green-text{
+    color: green;
+}
+.black-text{
+    color: black;
+}
+.white-text {
+    color: white;
+}

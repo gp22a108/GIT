@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8" />
+    <title>デンちゃんねる</title>
+    <link rel="stylesheet"
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <style>
+        body {
+            background-color: deepskyblue;
+            color: white; /* Ensure text is readable on dark background */
+        }
+
+        @keyframes wave {
+            0%, 100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+
+        .wave-text span {
+            display: inline-block;
+            animation: wave 1s infinite;
+        }
+
+            .wave-text span:nth-child(2) {
+                animation-delay: 0.1s;
+            }
+
+            .wave-text span:nth-child(3) {
+                animation-delay: 0.2s;
+            }
+
+            .wave-text span:nth-child(4) {
+                animation-delay: 0.3s;
+            }
+
+            .wave-text span:nth-child(5) {
+                animation-delay: 0.4s;
+            }
+
+            .wave-text span:nth-child(6) {
+                animation-delay: 0.5s;
+            }
+
+            .wave-text span:nth-child(7) {
+                animation-delay: 0.6s;
+            }
+
+        .list-group-item {
+            background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background for list items */
+            color: black;
+        }
+    </style>
+</head>
+<body class="container">
+    <h6 class="text-center">itest.dench.net</h6>
+    <h1 class="display-4 text-center wave-text">
+        <span>デ</span><span>ン</span><span>ち</span><span>ゃ</span><span>ん</span><span>ね</span><span>る</span>
+    </h1>
+    <p class="lead text-center">大阪電気通信大学生が作った掲示板です。</p>
+
+    <!-- Board List Section -->
+    <section>
+        <h2 class="mt-4">板一覧 (Boards)</h2>
+        <ul class="list-group">
+            <li class="list-group-item"><a href="board/news.html">ニュース速報</a></li>
+            <li class="list-group-item"><a href="board/geinou.html">芸能人</a></li>
+            <li class="list-group-item"><a href="board/sports.html">スポーツ</a></li>
+            <li class="list-group-item"><a href="board/science.html">科学技術</a></li>
+            <li class="list-group-item"><a href="board/games.html">ゲーム</a></li>
+        </ul>
+    </section>
+</body>
+</html>
